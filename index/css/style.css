@@ -4,21 +4,55 @@
 }
 
 .CalaReneeSalonLogo{
+  display: block;
   position: relative;
-  float: left;
   height: auto;
   width: auto;
-  padding: 2px;
+  margin: 0px, 2px, 2px, 0px;
   outline-style: solid;
   outline-width: 2px;
+}
 
+.NavBarContainer{
+  position: relative;
+  display: block;
+  float: left;
+  background-color: gray;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 10px -7px rgba(0,0,0,.6);
 }
 
 .NavBar{
-  position: relative;
-  float: left;
-  padding: 2px;
+  width: 90%;
+  max-width: 1920px;
+  margin: auto;
+}
 
+.NavBarItem{
+  height: 75%;
+  margin: auto;
+  display: block;
+  float: left;
+  transition: 0.3s;
+}
+
+.NavBarItem:hover{
+  background-color: red;
+  transition: 0.3s;
+}
+
+.NavBarItemLink{
+  color: black;
+  display: block;
+  padding: 15px 25px 15px 25px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.NavBarItemLink:hover{
+  color: white;
 }
 
 #CornerLogo{
