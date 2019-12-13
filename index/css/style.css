@@ -1,0 +1,27 @@
+
+.content-wrapper{
+
+}
+
+.CalaReneeSalonLogo{
+  position: relative;
+  float: left;
+  height: auto;
+  width: auto;
+  padding: 2px;
+  outline-style: solid;
+  outline-width: 2px;
+
+}
+
+.NavBar{
+  position: relative;
+  float: left;
+  padding: 2px;
+
+}
+
+#CornerLogo{
+  height: 150px;
+  width: 150px;
+}
