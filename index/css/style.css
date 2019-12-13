@@ -55,6 +55,15 @@
   color: white;
 }
 
+.TextArea{
+  float: left;
+  padding: 10px;
+  width: 50%;
+  height: 75%;
+  position: relative;
+  background-color: lightgray;
+}
+
 #CornerLogo{
   height: 150px;
   width: 150px;
