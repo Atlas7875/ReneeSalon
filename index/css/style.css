@@ -1,19 +1,17 @@
 
-.content-wrapper{
-
+.pageContentWrapper{
+  width: 100%;
 }
 
-.CalaReneeSalonLogo{
+.calaReneeSalonLogo{
   display: block;
   position: relative;
-  height: auto;
-  width: auto;
+  height: 150px;
+  width: 150px;
   margin: 0px, 2px, 2px, 0px;
-  outline-style: solid;
-  outline-width: 2px;
 }
 
-.NavBarContainer{
+.navBarContainer{
   position: relative;
   display: block;
   float: left;
@@ -23,13 +21,13 @@
   box-shadow: 0 4px 10px -7px rgba(0,0,0,.6);
 }
 
-.NavBar{
+.navBar{
   width: 90%;
   max-width: 1920px;
   margin: auto;
 }
 
-.NavBarItem{
+.navBarItem{
   height: 75%;
   margin: auto;
   display: block;
@@ -37,12 +35,12 @@
   transition: 0.3s;
 }
 
-.NavBarItem:hover{
+.navBarItem:hover{
   background-color: red;
   transition: 0.3s;
 }
 
-.NavBarItemLink{
+.navBarItemLink{
   color: black;
   display: block;
   padding: 15px 25px 15px 25px;
@@ -51,11 +49,11 @@
   font-size: 18px;
 }
 
-.NavBarItemLink:hover{
+.navBarItemLink:hover{
   color: white;
 }
 
-.TextArea{
+.textArea{
   float: left;
   padding: 10px;
   width: 50%;
@@ -64,7 +62,25 @@
   background-color: lightgray;
 }
 
-#CornerLogo{
-  height: 150px;
-  width: 150px;
+.footerContentWrapper{
+  float: left;
+  padding: 30px;
+  text-align: center;
+}
+
+.pageFooter{
+  position: absolute;
+  display: inline-block;
+  bottom: 10px;
+  width: 100%;
+}
+
+.logoLink{
+  height: inherit;
+  width: inherit;
+}
+
+#cornerLogo{
+  height: inherit;
+  width: inherit;
 }
