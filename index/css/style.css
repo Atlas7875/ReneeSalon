@@ -1,7 +1,10 @@
 
 .pageContentWrapper{
-  width: 100%;
+  width: auto;
+  height: auto;
 }
+
+/*Logo Start*/
 
 .calaReneeSalonLogo{
   display: block;
@@ -11,8 +14,23 @@
   margin: 0px, 2px, 2px, 0px;
 }
 
+.logoLink{
+  height: inherit;
+  width: inherit;
+}
+
+#cornerLogo{
+  height: inherit;
+  width: inherit;
+}
+
+/*Logo End*/
+
+/*Nav Bar Start*/
+
 .navBarContainer{
   position: relative;
+  margin-bottom: 10px;
   display: block;
   float: left;
   background-color: gray;
@@ -53,8 +71,10 @@
   color: white;
 }
 
+/*Nav Bar End*/
+
 .textArea{
-  float: left;
+  margin: auto;
   padding: 10px;
   width: 50%;
   height: 75%;
@@ -63,24 +83,17 @@
 }
 
 .footerContentWrapper{
-  float: left;
   padding: 30px;
   text-align: center;
+  position: absolute;
+  bottom:0;
+  margin: auto;
+  width: 100%;
 }
 
-.pageFooter{
+/*.pageFooter{
   position: absolute;
   display: inline-block;
   bottom: 10px;
   width: 100%;
-}
-
-.logoLink{
-  height: inherit;
-  width: inherit;
-}
-
-#cornerLogo{
-  height: inherit;
-  width: inherit;
-}
+}*/
